@@ -5,15 +5,15 @@
   - name: hello file copy
     copy:
       content: "hello from Monday evening"
-      dest: /tmp/monday.txt
+      dest: /tmp/monday3.txt
   - name: hello file copy
     copy:
       content: "hi there."
-      dest: /tmp/monday2.txt
+      dest: /tmp/monday4.txt
   - name: archive hh is created
     archive:
       path:
-      - /tmp/monday.txt
-      - /tmp/monday2.txt
-      dest: /tmp/hh.zip
+      - /tmp/monday3.txt
+      - /tmp/monday4.txt
+      dest: /tmp/hh2.zip
       format: zip
