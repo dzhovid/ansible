@@ -34,3 +34,4 @@
 # ansible-playbook playbookName --syntax-check
 # ansible-playbook playbookName
 # ansible-playbook playbookName -t start 
+# ansible-playbook playbookName -t stop
