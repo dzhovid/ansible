@@ -9,8 +9,6 @@
       region: us-east-1
       filters:
        "tag:Day": Monday
-       "tag:Environment": db
-       "tag:Environment": web
      register: out
    - name: print output
      template:
