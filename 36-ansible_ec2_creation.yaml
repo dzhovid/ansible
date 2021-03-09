@@ -9,5 +9,4 @@
       image: ami-0915bcb5fa77e4892
       key_name: KeyForLinuxServer
       region: us-east-1
-      tags: 
-        Environment: web
+      wait: yes
